@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --experimental-modules index.js",
+    "start": "nodemon --exec babel-node index.js",
     "dev": "nodemon index.js"
   },
   "author": "",
@@ -17,5 +17,10 @@
     "nodemon": "^2.0.20",
     "telegraf": "^4.11.2",
     "telegraph": "^0.8.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
   }
 }
