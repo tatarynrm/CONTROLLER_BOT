@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "controller_bot",
+      "script": "index.js",
+      "watch": true,
+      "exec_interpreter": "babel-node",
+      "exec_mode": "fork"
+    }
+  ]
+}
