@@ -3,6 +3,7 @@ import { userModel } from "../models/UserModel.js";
 export const createIfNotExist = async (user, contact, res) => {
   const userFind = await userModel.findOne({ userId: user.id });
   // console.log("----user createIfNotExist----", userFind.phone);
+  //
   try {
     if (userFind === null) {
       userModel.create({
