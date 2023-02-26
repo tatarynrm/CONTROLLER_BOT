@@ -6,7 +6,6 @@ dotenv.config();
 import { randomTime } from "./utils/random/random.js";
 import { createIfNotExist } from "./services/userService.js";
 import { badWords, joinWords } from "./utils/words/badWords.js";
-// import developer from "./utils/functions/functionsReply.js";
 mongoose
   .connect(
     "mongodb+srv://tatarynrm:Aa527465182@baby-shop.koyb4bl.mongodb.net/noris-bot?retryWrites=true&w=majority"
